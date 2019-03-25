@@ -1,17 +1,15 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <RubberDuck></RubberDuck>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import RubberDuck from '@/components/RubberDuck'
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    RubberDuck
   }
 }
 </script>
