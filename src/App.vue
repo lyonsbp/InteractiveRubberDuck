@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <RubberDuck></RubberDuck>
+    <RubberDuck/>
   </div>
 </template>
 
